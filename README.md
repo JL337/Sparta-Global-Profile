@@ -28,5 +28,5 @@ Your local Terminal
 ###License
 
 ###Acknowledgements
-Thanks to all at Sparta Global for the help and inspiration!
+Thanks to all at Sparta Global for the help!
 
