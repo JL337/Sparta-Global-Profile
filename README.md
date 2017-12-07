@@ -9,7 +9,7 @@ This README file contains information about my personal profile. It shows my qua
 ###Prerequisites
 [Sublime Text Download](https://www.sublimetext.com/3)
 
-[Google Chrome Download](https://www.sublimetext.com/3)
+[Google Chrome Download](https://support.google.com/chrome/answer/95346?co=GENIE.Platform%3DDesktop&hl=en)
 
 Your local Terminal
 
