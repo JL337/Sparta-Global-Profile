@@ -1,6 +1,22 @@
+html,body {
+  font-family: 'Raleway', sans-serif;
+}
 
+/*Titles for my NAME and Subsections for experience use a RED-ish colour*/
+h1,h4 {
+  color:#E13A63;
+}
 
+/*Resize the sparta global logo in nav bar, set width and margin gap on top*/
+#logo {
+  width:100px;
+  margin-top:7px;
+}
 
-
+.navbar-default {
+    background-color: #01181b;
+    border-radius: 0px;
+   	border-color: transparent;
+}
    
 
