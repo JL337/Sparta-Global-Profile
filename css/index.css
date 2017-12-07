@@ -9,7 +9,7 @@ html, body{
 #wrapper #main {
 	width:1425px;
 	height:1930px;
-	*background-color: #5c28d6;
+	background-color: #5c28d6;
 	margin: auto;
 }
 .clr {
