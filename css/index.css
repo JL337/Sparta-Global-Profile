@@ -10,13 +10,19 @@ h1,h4 {
 /*Resize the sparta global logo in nav bar, set width and margin gap on top*/
 #logo {
   width:100px;
-  margin-top:7px;
 }
 
 .navbar-default {
     background-color: #01181b;
     border-radius: 0px;
-   	border-color: transparent;
+    border-color: transparent;
 }
+
+.gamepreview{
+	padding-bottom: 30px;
+	padding-top: 13px;
+}
+
+
    
 
