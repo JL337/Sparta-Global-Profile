@@ -11,9 +11,7 @@ This README file contains information about my personal profile. It shows my qua
 
 [Google Chrome Download](https://support.google.com/chrome/answer/95346?co=GENIE.Platform%3DDesktop&hl=en)
 
-Your local Terminal
-
-###Installing
+Terminal
 
 ###Running Tests
 
@@ -29,36 +27,3 @@ Your local Terminal
 
 ###Acknowledgements
 Thanks to all at Sparta Global for the help!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
