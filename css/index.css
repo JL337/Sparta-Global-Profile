@@ -5,11 +5,23 @@ html,body {
 /*Titles for my NAME and Subsections for experience use a RED-ish colour*/
 h1,h4 {
   color:#E13A63;
+  padding-top: 10px;
 }
 /*Resize the sparta global logo in nav bar, set width and margin gap on top*/
 #logo {
   width:100px;
 }
+
+.introduction, .project-info{
+	font-size: 22px;
+}
+
+#skills{
+}
+
+#job-history{
+}
+
 
 /*Overrides Listed Below*/
 
