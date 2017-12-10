@@ -1,42 +1,18 @@
-/*Change all font enclosed in body and html*/
-html,body {
-  font-family: 'Raleway', sans-serif;
-}
-/*Titles for my NAME and Subsections for experience use a RED-ish colour*/
-h1,h4 {
-  color:#E13A63;
-  padding-top: 10px;
-}
-/*Resize the sparta global logo in nav bar, set width and margin gap on top*/
-#logo {
-  width:100px;
+#experience h4 {
+  margin-top:30px;
 }
 
-.introduction, .project-info{
-	font-size: 22px;
+#job-history {
+  margin-top:30px;
 }
 
-#skills{
+#skills-list ul li {
+  margin-bottom:5px;
+  font-size:1.1em;
+  margin-top:15px;
 }
-
-#job-history{
+	
+#skills-list ul {
+  padding:0px;
+  margin-top:30px;
 }
-
-
-/*Overrides Listed Below*/
-
-/*Change the look of the navigation bar, colour to a light black, remove the rounded edge and remove the white border*/
-.navbar-default {
-    background-color: #01181b;
-    border-radius: 0px;
-    border-color: transparent;
-}
-/*Reallign the game preview images on projects.html*/
-.gamepreview{
-	padding-bottom: 30px;
-	padding-top: 13px;
-}
-
-
-   
-

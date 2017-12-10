@@ -3,48 +3,61 @@
 <head>
   <title>Projects</title>
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <link rel="stylesheet" type="text/css" href="css/projects.css">
+  <link rel="stylesheet" type="text/css" href="css/global.css">
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link rel="icon" href="images/favicon.png"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
 </head>
 <body>
-<div class-container>
-<!-- Navigation Bar -->
-  <nav class="navbar navbar-default">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="https://www.spartaglobal.com/"><img id="logo" src="images/sparta-global-logo-white.svg"> </a>
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="sr-only">Toggle navigation</span> 
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span> 
+        </button>
+      <div class="navbar-left">
+        <a href="https://www.spartaglobal.com/"><img id="logo" src="images/sparta-global-logo-white.svg"></a>
+      </div>
+      <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+        <ul class="nav navbar-default navbar-nav">
+         <li><a href="index.html">Profile</a></li>
+         <li class="active"><a href="#">Projects</a></li>
+         <li><a href="https://www.spartaglobal.com/">Sparta Global</a></li>
+        </ul>
+      </div>
+      </div>
     </div>
-      <ul class="nav navbar-nav">
-        <li><a href="index.html">Profile</a></li>
-        <li class="active"><a href="projects.html">Projects</a></li> 
-        <li><a href="https://www.spartaglobal.com/">Sparta Global</a></li>
-      </ul>
   </nav>
-</div>
+
 <div class="container">
   <!-- ROW 1 -->
   <div class="row">
   <!-- 3 boxes used for Profile image and 9 boxes wide for introduction bio text -->
   <!-- 1ST ROW -->
-    <div class="col-sm-3">  
-      <img src="images/JL.png" class="img-responsive img-circle">
+    <div class="col-sm-3" id="profilepic">  
+      <img src="images/JL_686x743.jpg" class="img-responsive img-circle">
     </div>  <!-- Check this div? Not highlighted -->
     <div class="col-sm-9">
       <h1>Jonathan Lai</h1>
       <h2>Projects</h2>
-    <div class="project-info">
-         <p>Fusce eget velit ut tellus congue efficitur ut pellentesque ante. Nullam fermentum libero ut ex elementum, vel laoreet velit lacinia. Pellentesque posuere ut nibh sed lacinia. Sed bibendum porta odio, et volutpat massa auctor ornare. Sed auctor ligula in augue molestie euismod. Mauris at euismod lorem.</p>
-         <p>Maecenas mattis nunc mauris, id vulputate lorem egestas ac. In quis ante elit. Curabitur blandit arcu cursus, eleifend tellus ut, cursus felis. Mauris sit amet placerat lacus, sit amet interdum dolor. Pellentesque viverra volutpat rutrum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+    <div class="introduction">
+         <p class="lead">Aliquam dignissim porta magna at interdum. Vestibulum vitae massa luctus risus feugiat dignissim eu at nisi. Morbi ultricies libero augue, quis feugiat sem efficitur eget. Nullam gravida luctus enim sit amet tincidunt. Phasellus nisi lacus, maximus ut sapien in, porta gravida diam. Mauris at tempor dui, nec aliquet eros.</p>
+         <p class="lead">Aliquam dignissim porta magna at interdum. Vestibulum vitae massa luctus risus feugiat dignissim eu at nisi. Morbi ultricies libero augue, quis feugiat sem efficitur eget. Nullam gravida luctus enim sit amet tincidunt. Phasellus nisi lacus, maximus ut sapien in, porta gravida diam. Mauris at tempor dui, nec aliquet eros.</p>
     </div> 
     </div>      
   </div>
 </div>
+
 <div class="container"> 
   <!-- ROW 2 -->
   <div class="row">
     <!-- BOX 3, ROW 2 -->
     <div class="col-sm-3 gamepreview">
-      <img src="http://via.placeholder.com/900x550" class="img-responsive"/>
+       <img src="https://steveyblam.github.io/profile/images/project-1-screenshot.png" class="img-responsive"/>
     </div>
     <!-- BOX 9, ROW 2 -->
     <div class="col-sm-9">
@@ -55,12 +68,13 @@
     </div>
   </div>
 </div>
+
 <div class="container"> 
   <!-- ROW 3 -->
   <div class="row">
       <!-- BOX 3, ROW 3 -->
       <div class="col-sm-3 gamepreview">
-       <img src="http://via.placeholder.com/900x550" class="img-responsive"/>
+        <img src="https://steveyblam.github.io/profile/images/project-1-screenshot.png" class="img-responsive"/>
       </div>
       <!-- BOX 9, ROW 3 -->
       <div class="col-sm-9">
@@ -71,14 +85,15 @@
     </div>
   </div>
 </div>
+
 <div class="container"> 
 <!-- ROW 4 -->
   <div class="row">
     <!-- BOX 3, ROW 4 -->
     <div class="col-sm-3 gamepreview">
-      <img src="http://via.placeholder.com/900x550" class="img-responsive"/>
+       <img src="https://steveyblam.github.io/profile/images/project-1-screenshot.png" class="img-responsive"/>
     </div>
-    <!-- BOX 9m ROW 4 -->
+    <!-- BOX 9, ROW 4 -->
     <div class="col-sm-9">
       <h4>Project 2 - MVC CRUD App</h4>
       <p><a href="#">github.com/JL337/browser-game</a></p>
@@ -87,5 +102,7 @@
     </div>
   </div>
 </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>

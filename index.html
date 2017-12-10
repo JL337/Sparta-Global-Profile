@@ -1,56 +1,64 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Jonathan Lai- Sparta Global</title>
+	<title>Jonathan Lai</title>
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
+  <link rel="stylesheet" type="text/css" href="css/global.css">  
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link rel="icon" href="images/favicon.png"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">	
 </head>
 <body>
-<div class-container>
-<!-- Navigation Bar on Top -->
-  <nav class="navbar navbar-default">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="https://www.spartaglobal.com/"><img id="logo" src="images/sparta-global-logo-white.svg"></a>
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+         <span class="sr-only">Toggle navigation</span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+        </button>
+        <div class="navbar-left">
+          <a href="https://www.spartaglobal.com/"><img id="logo" src="images/sparta-global-logo-white.svg"></a>
+        </div>
+        <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+          <ul class="nav navbar-nav">
+           <li class="active"><a href="#">Profile</a></li>
+           <li><a href="projects.html">Projects</a></li>
+           <li><a href="https://www.spartaglobal.com/">Sparta Global</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Profile</a></li>
-      <li><a href="projects.html">Projects</a></li> 
-      <li><a href="https://www.spartaglobal.com/">Sparta Global</a></li>
-    </ul>
   </nav>
-</div>
 <div class="container">
 <!-- 1ST ROW -->
   <div class="row">
     <!-- General layout used, 12 box Bootstrap3, 9/3-->
     <!-- BOX 3, ROW 1 -->
-    <div class="col-sm-3">  
-    <!-- 'sm' is for small screens (tablets) // small grid (≥ 768px) = .col-sm-* -->
-      <img src="images/JL.png" class="img-responsive img-circle">
+    <div class="col-sm-3" id="profilepic">  
+      <img src="images/JL_686x743.jpg" class=" img-circle img-responsive">
     </div>
     <!-- BOX 9, ROW 1 -->
     <div class="col-sm-9">
       <h1>Jonathan Lai</h1>
-      <h2>Sparta Global Trainee Consultant</h2> 
+      <h2>Sparta Global Consultant</h2> 
       <div class="university">
         <p>University of Portsmouth</p>
         <p>BEng Electronic Engineering 2:2</p>
       </div>
       <div class="introduction">
-        <p>Fusce eget velit ut tellus congue efficitur ut pellentesque ante. Nullam fermentum libero ut ex elementum, vel laoreet velit lacinia. Pellentesque posuere ut nibh sed lacinia. Sed bibendum porta odio, et volutpat massa auctor ornare. Sed auctor ligula in augue molestie euismod. Mauris at euismod lorem.</p>
-        <p>Maecenas mattis nunc mauris, id vulputate lorem egestas ac. In quis ante elit. Curabitur blandit arcu cursus, eleifend tellus ut, cursus felis. Mauris sit amet placerat lacus, sit amet interdum dolor. Pellentesque viverra volutpat rutrum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+        <p class="lead">Fusce eget velit ut tellus congue efficitur ut pellentesque ante. Nullam fermentum libero ut ex elementum, vel laoreet velit lacinia. Pellentesque posuere ut nibh sed lacinia. Sed bibendum porta odio, et volutpat massa auctor ornare. Sed auctor ligula in augue molestie euismod. Mauris at euismod lorem.</p>
+        <p class="lead">Maecenas mattis nunc mauris, id vulputate lorem egestas ac. In quis ante elit. Curabitur blandit arcu cursus, eleifend tellus ut, cursus felis. Mauris sit amet placerat lacus, sit amet interdum dolor. Pellentesque viverra volutpat rutrum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
       </div>        
     </div>
   </div>
-</div>
-<div class="container">
 <!-- 2ND ROW -->
   <div class="row">
     <!-- BOX 3, ROW 2 -->
     <div class="col-sm-3">
-      <div id="skills">
+      <div id="skills-list">
         <h3>Additional Skills</h3>
         <ul>
           <li>Project management</li> 
@@ -65,12 +73,12 @@
           <li>Mediacom award for best use of econometrics in an ISU group - University of Portsmouth</li>
         </ul>
       </div>
-      <div class="job-history">
+      <div id="job-history">
         <h3>Employment History</h3>
           <div class="company">     
             <h5>Company</h5>
             <small>Jan 2006 - May 2019</small>
-            </div>
+          </div>
           <div class="company">
             <h5>Company</h5>
             <small>Jan 2006 - May 2019</small>
@@ -83,7 +91,7 @@
     </div>
     <!-- BOX 9, ROW 2-->
     <div class="col-sm-9">
-      <div class="main-exp">
+      <div class="experience">
         <h3>Academy Experience</h3>   
         <h4>Business Skills</h4>
         <p>Fusce eget velit ut tellus congue efficitur ut pellentesque ante. Nullam fermentum libero ut ex elementum, vel laoreet velit lacinia.</p>
@@ -115,8 +123,8 @@
       </div>
     </div>
   </div>       
-</div>
-<div class="container">
+
+<div class="row">
 <!-- 3RD Row -->
   <!-- BOX 3, ROW 3 -->
   <div class="col-sm-3">
@@ -143,10 +151,12 @@
           <li>List your modules</li>
           <li>List your modules</li>
         </ul>
-      <h4>Final Year Project - VHDL Handwriting Clock</h4>
+      <h5>Final Year Project - VHDL Handwriting Clock</h5>
       <p> Using VHDL to control an armature and motor and physcical model built from scratch.</p>
-      <p> Designed the project product using AutoCad 2016, and laser cut.</p>
   </div>       
 </div>
+</div>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html> 
