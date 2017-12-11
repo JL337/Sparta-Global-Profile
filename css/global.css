@@ -21,12 +21,12 @@ h4 {
 
 /* Bootstrap Overrides - Listed Below */
 
-.introduction {
-  font-size: 20px;
-}
-
 #profilepic {
   padding-top:20px;
+}
+
+.introduction {
+  font-size: 20px;
 }
 
 .navbar-brand,
