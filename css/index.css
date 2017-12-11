@@ -1,133 +1,18 @@
-html, body{
-	padding: 0px;
-	margin: 0px;
-	background-color: #fff; 
-}
-.clr {
-	clear: both;
-}
-#wrapper #main {
-	width:1425px;
-	height:1930px;
-	*background-color: #5c28d6;
-	margin: auto;
-}
-.clr {
-	clear: both;
-}
-#main {
-	font-family: "Raleway", sans-serif;
- }
-
-#face{
-	width:262px;
-	height:284px;
+#experience h4 {
+  margin-top:30px;
 }
 
-#sparta_image{
-	width: 150px;
-	height: 52px;
-}
-#face {
-/*Padding changes the circle*/
-	margin-top: 40px;
-	margin-left: 143px;
-	margin-bottom: 170px;
-	margin-right: 15px;
-	display: block;
-	box-sizing: border-box;
-	border-radius: 350px;
-}
-#nav_top{
-	width:1425px;
-	height:52px;
-	background-color: #01181b;
-	box-sizing: border-box;
-	color: white;
-	padding-left: 150px;
+#job-history {
+  margin-top:30px;
 }
 
-#links {
-	vertical-align: center;
+#skills-list ul li {
+  margin-bottom:5px;
+  font-size:1.1em;
+  margin-top:15px;
 }
-
-#profile_pic{
-	float: left;
-	width:40%;
-	background-color: #db005f;
+	
+#skills-list ul {
+  padding:0px;
+  margin-top:30px;
 }
-#intro{
-	float: right;
-	width: 60%;
-	background-color: #ba4a00;
-	box-sizing: border-box;
-	display: block;
-}
-#intro h1 {
-	padding-top: 10px;
-	color: #E13A63;
-	font-size: 36px;
-	font-weight: 500;
-}
-#intro h2 {
-	box-sizing: border-box;
-	margin-bottom: 10px;
-	font-size: 25px;
-	font-weight: 500;
-}
-#intro p {
-	box-sizing: border-box;
-	font-size: 15px;
-	font-weight: 300;
-	line-height: 29.4px;
-}
-#skills_list{
-	float: left;
-	width:419px;
-	height:840px;
-	background-color: #59c13c;
-	padding-left: 128px;
-	padding-right: 30px;
-	box-sizing: border-box;
-}
-#skills_detail{
-	float: right;
-	width:1006px;
-	height:1404px;
-	background-color: #c13cb6;
-	padding-right: 128px;
-	box-sizing: border-box;
-	padding-left: 30px;
-}
-#skills_detail h4 {
-	color: #E13A63;
-	font-size: 20px;
-	font-weight: 500;
-}
-
-#skills_detail p, li {
-	font-size: 15px;
-	font-weight: 500;
-}
- /*media query to resize page on screensize*/
- @media screen and (max-width: 960px){
- 		#main {
- 		width: 100%;
- 		}
- 		#profile_pic{
-  	 	float: none;
-  	 	margin: none;
- 		}	
-		#intro {
-		float: none;
-		padding: 0px;
-		}	
-		#skills_list{
-		padding: 0px;
-		float: none;	
-		}
-		#skills_detail{
-		float: none;
-		padding:0px;			
-		}
-	}

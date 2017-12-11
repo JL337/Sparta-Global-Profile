@@ -1,0 +1,55 @@
+html,body {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1,h4 {
+  color:#E13A63;
+}
+
+h4 {
+  margin-top:30px;
+}
+
+#logo {
+  width:100px;
+  margin-top:7px;
+}
+
+.panel {
+  margin-bottom:30px;
+}
+
+/* Bootstrap Overrides - Listed Below */
+
+#profilepic {
+  padding-top:20px;
+}
+
+.introduction {
+  font-size: 20px;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 50px;
+    height: 50px;
+    padding-top: 0px;
+}
+
+.navbar-nav li,
+.navbar-default .navbar-nav li a,
+.navbar-default .navbar-nav .active li a:hover {
+  background-color: transparent;
+  color:white;
+}
+
+.navbar-default .navbar-nav .active a {
+  background-color: transparent;
+  color:#E13A63;
+}
+
+.navbar-default {
+    background-color: #01181b;
+    border-color: transparent;
+    border-radius: 0px;
+}
