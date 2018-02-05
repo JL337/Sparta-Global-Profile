@@ -32,4 +32,4 @@ v0.0.1
 ###License
 
 ###Acknowledgements
-Thanks to all at Sparta Global for the help!
+Thanks to all at Sparta Global.
