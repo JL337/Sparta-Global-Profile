@@ -1,10 +1,10 @@
-#Project: sparta-profile
+#Sparta-profile
 
-#Creating a webpage for an online profile
+#Creating a webpage for my online profile
 
 ##Getting Started
 
-This README file contains information about how to navigate this project, 'sparta-proile'. Detalils on how to install required programs, testing and development, and version control are included.
+This README file contains information about how to navigate this project, 'sparta-proile'. Details on how to install required programs, testing and development, and version control are included.
 
 ###Prerequisites
 
@@ -16,20 +16,19 @@ https://macdown.uranusjr.com/
 
 [MacDown Download](https://macdown.uranusjr.com/)
 
-###Build Version
+##Build Version
 v0.0.1
 
-###Running Tests
+##Running Tests
 
-###Deployment
+##Deployment
 
-###Authors
-1. JL337
+##Authors
+* JL337
 
-###Current Contributors
-1. steveyblam
+##Current Contributors
+* steveyblam
 
-###License
+##License
 
-###Acknowledgements
-Thanks to all at Sparta Global.
+##Acknowledgements
