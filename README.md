@@ -6,7 +6,7 @@
 
 This README file contains information about how to navigate this project, 'sparta-proile'. Details on how to install required programs, testing and development, and version control are included.
 
-###Prerequisites
+##Prerequisites
 
 https://macdown.uranusjr.com/
 
